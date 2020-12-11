@@ -1,10 +1,5 @@
 const mongoose = require('mongoose');
 
-
-
-const DB_URL = process.env.DB_URI;
-
-
 const userSchema = mongoose.Schema({
     username: String,
     email: String,
